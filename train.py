@@ -28,7 +28,7 @@ def set_seed(seed=42):
 set_seed(42)  # 调用设置随机种子函数，使用种子值42
 
 # 定义数据集路径和类别
-DATA_DIR = '/home/u20212141086_a/llf/aml_data/aml_data'  # 设置数据集目录路径
+DATA_DIR = '/home/vgg16_aml_classification/aml_data'  # 设置数据集目录路径
 CLASSES = ['CBFB_MYH11', 'normal', 'NPM1', 'PML_RARA', 'RUNX1_RUNX1T1']  # 定义数据类别名称
 NUM_CLASSES = len(CLASSES)  # 计算类别数量
 
