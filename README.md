@@ -1,6 +1,8 @@
 # vgg16-aml-classification
 vgg16 aml classification
 "# vgg16_aml_classification" 
+
+
 一：下载数据
 https://www.kaggle.com/datasets/gchan357/human-aml-cytomorphology-dataset
 数据描述：
@@ -27,6 +29,8 @@ https://www.kaggle.com/code/gchan357/aml-image-number-dimension-and-color-inform
 背景资料:
 
 2009年至2020年慕尼黑白血病实验室（MLL）数据库中共有189份外周血涂片被数字化。首先，对所有血液涂片进行10倍放大扫描，并创建一个概览图像。使用Metasystems Metafer平台，使用分割阈值和对数颜色变换自动执行细胞检测。自动对血液涂抹区域的质量进行进一步分析。每个患者的99-500个白细胞，然后通过油浸显微镜以40倍放大的TIF格式扫描，对应于24.9μm x 24.9μm（144x144像素）。为此，使用了Meta Systems的CMOS彩色相机，分辨率为4096x3000px，像素大小为3,45μm x 3,45μm。四个像素被分成一个像素，其大小为6.9μm x 6.9μm，分辨率为6.9μm/40（1 px=01725μm）。
+
+
 二、数据提取与预处理
 python data_extraction.py
 
