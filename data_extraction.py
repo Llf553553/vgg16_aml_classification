@@ -3,7 +3,7 @@ import shutil
 from pathlib import Path
 
 # 主目录路径
-main_dir = "/home/u20212141086_a/llf/aml_data/aml_data/RUNX1_RUNX1T1"
+main_dir = "/home/vgg16_aml_classification/aml_data/RUNX1_RUNX1T1"  #换成每个类别提取
 
 # 初始化计数器
 total_files_before = 0
