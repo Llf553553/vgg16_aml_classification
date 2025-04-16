@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
 # 指定字体文件路径
-font_path = '/home/u20212141086_a/llf/aml_data/SimHei.ttf'
+font_path = '/home/vgg16_aml_classification/SimHei.ttf'
 
 # 检查字体文件是否存在
 if not os.path.exists(font_path):
@@ -52,9 +52,9 @@ def set_seed(seed=42):
 set_seed(42)
 
 # 定义数据集路径和类别
-DATA_DIR = '/home/u20212141086_a/llf/aml_data/aml_data'
+DATA_DIR = '/home/vgg16_aml_classification/aml_data'
 # 创建保存结果的文件夹
-SAVE_DIR = '/home/u20212141086_a/llf/aml_data/pictures/model_comparison'
+SAVE_DIR = '/home/vgg16_aml_classification/pictures/model_comparison'
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 CLASSES = ['CBFB_MYH11', 'normal', 'NPM1', 'PML_RARA', 'RUNX1_RUNX1T1']
