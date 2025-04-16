@@ -4,7 +4,10 @@ vgg16 aml classification
 
 
 一：下载数据
+
 https://www.kaggle.com/datasets/gchan357/human-aml-cytomorphology-dataset
+
+
 数据描述：
 人类白血病细胞形态学数据集
 正常人和白血病患者的血细胞图像数据集
@@ -32,13 +35,17 @@ https://www.kaggle.com/code/gchan357/aml-image-number-dimension-and-color-inform
 
 
 二、数据提取与预处理
+
 python data_extraction.py
 
 三、vgg16模型构建、训练、验证、测试、评估
+
 python train.py
 
 四、模型对比
+
 python model_comparison.py
 
 五、是否添加BN层模型效果对比
+
 python model comparison_bn_nobn.py
